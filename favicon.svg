@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#bg)"/>
+  <!-- City skyline silhouette -->
+  <path d="M8 44 L8 36 L11 36 L11 32 L14 32 L14 36 L17 36 L17 30 L20 30 L20 26 L23 26 L23 30 L26 30 L26 34 L29 34 L29 24 L32 24 L32 20 L35 20 L35 24 L38 24 L38 28 L41 28 L41 32 L44 32 L44 26 L47 26 L47 30 L50 30 L50 34 L53 34 L53 38 L56 38 L56 44 Z" fill="#ffffff" opacity="0.15"/>
+  <!-- Bear head -->
+  <!-- Ears -->
+  <circle cx="22" cy="20" r="6" fill="#c4a882"/>
+  <circle cx="42" cy="20" r="6" fill="#c4a882"/>
+  <circle cx="22" cy="20" r="3.5" fill="#8b7355"/>
+  <circle cx="42" cy="20" r="3.5" fill="#8b7355"/>
+  <!-- Head -->
+  <ellipse cx="32" cy="32" rx="16" ry="14" fill="#c4a882"/>
+  <!-- Muzzle -->
+  <ellipse cx="32" cy="36" rx="8" ry="6" fill="#d4c4a8"/>
+  <!-- Eyes -->
+  <circle cx="26" cy="30" r="2.5" fill="#1a1a2e"/>
+  <circle cx="38" cy="30" r="2.5" fill="#1a1a2e"/>
+  <circle cx="27" cy="29.2" r="0.8" fill="#fff"/>
+  <circle cx="39" cy="29.2" r="0.8" fill="#fff"/>
+  <!-- Nose -->
+  <ellipse cx="32" cy="34" rx="3" ry="2" fill="#4a3728"/>
+  <ellipse cx="32" cy="33.5" rx="1.2" ry="0.6" fill="#6b5040" opacity="0.5"/>
+  <!-- Mouth -->
+  <path d="M30 36.5 Q32 39 34 36.5" stroke="#4a3728" stroke-width="0.8" fill="none"/>
+</svg>
